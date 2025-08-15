@@ -1,0 +1,17 @@
+{
+  "columns": {
+    "id": true,
+    "first_name": true,
+    "last_name": true,
+    "contact": false,
+    "department": false,
+    "position": true,
+    "location": false,
+    "company": true
+  },
+  "rate_limit": {
+    "max_requests": 10,
+    "window_seconds": 60,
+    "max_global_requests": 1000
+  }
+}
